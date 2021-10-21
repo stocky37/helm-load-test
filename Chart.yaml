@@ -1,0 +1,226 @@
+apiVersion: v2
+name: multi-test
+description: A Helm chart for Kubernetes
+
+# A chart can be either an 'application' or a 'library' chart.
+#
+# Application charts are a collection of templates that can be packaged into versioned archives
+# to be deployed.
+#
+# Library charts provide useful utilities or functions for the chart developer. They're included as
+# a dependency of application charts to inject those utilities and functions into the rendering
+# pipeline. Library charts do not define any templates and therefore cannot be deployed.
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 0.1.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+# It is recommended to use it with quotes.
+appVersion: "1.16.0"
+
+dependencies:
+  - name: nginx
+    alias: nginx-1
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-2
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-3
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-4
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-5
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-6
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-7
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-8
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-9
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-10
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-11
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-12
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-13
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-14
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-15
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-16
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-17
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-18
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-19
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-20
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-21
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-22
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-23
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-24
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-25
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-26
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-27
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-28
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-29
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-30
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-31
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-32
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-33
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-34
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-35
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-36
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-37
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-38
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-39
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-40
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-41
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-42
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-43
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-44
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-45
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-46
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-47
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-48
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-49
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami
+  - name: nginx
+    alias: nginx-50
+    version: '*'
+    repository: https://charts.bitnami.com/bitnami

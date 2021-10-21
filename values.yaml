@@ -1,0 +1,100 @@
+nginx-1:
+  replicaCount: 10
+nginx-2:
+  replicaCount: 10
+nginx-3:
+  replicaCount: 10
+nginx-4:
+  replicaCount: 10
+nginx-5:
+  replicaCount: 10
+nginx-6:
+  replicaCount: 10
+nginx-7:
+  replicaCount: 10
+nginx-8:
+  replicaCount: 10
+nginx-9:
+  replicaCount: 10
+nginx-10:
+  replicaCount: 10
+nginx-11:
+  replicaCount: 10
+nginx-12:
+  replicaCount: 10
+nginx-13:
+  replicaCount: 10
+nginx-14:
+  replicaCount: 10
+nginx-15:
+  replicaCount: 10
+nginx-16:
+  replicaCount: 10
+nginx-17:
+  replicaCount: 10
+nginx-18:
+  replicaCount: 10
+nginx-19:
+  replicaCount: 10
+nginx-20:
+  replicaCount: 10
+nginx-21:
+  replicaCount: 10
+nginx-22:
+  replicaCount: 10
+nginx-23:
+  replicaCount: 10
+nginx-24:
+  replicaCount: 10
+nginx-25:
+  replicaCount: 10
+nginx-26:
+  replicaCount: 10
+nginx-27:
+  replicaCount: 10
+nginx-28:
+  replicaCount: 10
+nginx-29:
+  replicaCount: 10
+nginx-30:
+  replicaCount: 10
+nginx-31:
+  replicaCount: 10
+nginx-32:
+  replicaCount: 10
+nginx-33:
+  replicaCount: 10
+nginx-34:
+  replicaCount: 10
+nginx-35:
+  replicaCount: 10
+nginx-36:
+  replicaCount: 10
+nginx-37:
+  replicaCount: 10
+nginx-38:
+  replicaCount: 10
+nginx-39:
+  replicaCount: 10
+nginx-40:
+  replicaCount: 10
+nginx-41:
+  replicaCount: 10
+nginx-42:
+  replicaCount: 10
+nginx-43:
+  replicaCount: 10
+nginx-44:
+  replicaCount: 10
+nginx-45:
+  replicaCount: 10
+nginx-46:
+  replicaCount: 10
+nginx-47:
+  replicaCount: 10
+nginx-48:
+  replicaCount: 10
+nginx-49:
+  replicaCount: 10
+nginx-50:
+  replicaCount: 10
